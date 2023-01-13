@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace HashTable
 {
     public class Linked_Hash_Map<K, V> where K : IComparable
-    {
+    { 
         private readonly int Num_Buckets;
         readonly List<Linked_List<K, V>> Bucket_List;
         public StringBuilder Result;
